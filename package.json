@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "^3.4.3"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,15 +30,16 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.1.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.13",
-    "prettier": "^2.0.5"
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1"
   }
 }
