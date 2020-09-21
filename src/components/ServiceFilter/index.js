@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import IconFilter from '../IconFilter';
 
-const ServiceFilter = styled.nav`
+export const ServiceFilter = styled.nav`
   background-color: #3a4042;
   display: flex;
   padding: 0 16px;
@@ -11,4 +11,9 @@ const ServiceFilter = styled.nav`
   }
 `;
 
-export default ServiceFilter;
+export const Label = styled.p`
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fffcee;
+`;

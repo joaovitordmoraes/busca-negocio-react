@@ -3,8 +3,7 @@ import HeaderMain from './components/HeaderMain';
 import IconFilter from './components/IconFilter';
 import IconSearch from './components/IconSearch';
 import LogoMain from './components/LogoMain';
-import ServiceFilter from './components/ServiceFilter';
-import TitleMain from './components/TitleMain';
+import { ServiceFilter, Label } from './components/ServiceFilter';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
       </HeaderMain>
       <ServiceFilter>
         <IconFilter />
-        <TitleMain>Guia de serviços</TitleMain>
+        <Label>Guia de serviços</Label>
       </ServiceFilter>
     </>
   );
