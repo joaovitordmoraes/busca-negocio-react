@@ -1,5 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import Reset from './styles/generic/reset';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <>
+    <Reset />
+    <App />
+  </>,
+  document.getElementById('root')
+);
