@@ -1,9 +1,9 @@
-import React from 'react';
-import IconFilter from '../../components/IconFilter';
+import React from 'react'
+import IconFilter from '../../components/IconFilter'
 
 export default {
-    title: 'Components/IconFilter',
-    component: IconFilter
-};
+  title: 'Components/IconFilter',
+  component: IconFilter
+}
 
-export const Default = () => <IconFilter />;
+export const Default = () => <IconFilter />

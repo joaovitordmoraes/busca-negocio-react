@@ -1,9 +1,9 @@
-import React from 'react';
-import IconSearch from '../../components/IconSearch';
+import React from 'react'
+import IconSearch from '../../components/IconSearch'
 
 export default {
-    title: 'Components/IconSearch',
-    component: IconSearch
-};
+  title: 'Components/IconSearch',
+  component: IconSearch
+}
 
-export const Default = () => <IconSearch />;
+export const Default = () => <IconSearch />
