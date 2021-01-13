@@ -1,3 +1,7 @@
+import React from 'react'
+import Reset from '../src/styles/generic/reset'
+import Base from '../src/styles/elements/base';
+import Settings from '../src/styles/settings/settings';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -9,3 +13,12 @@ export const parameters = {
     }]
   }
 }
+
+export const decorators = [(Story) => 
+  <>
+    <Reset />
+    <Settings />
+    <Base />
+    <Story/>
+  </>
+];
