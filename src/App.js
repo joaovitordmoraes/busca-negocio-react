@@ -1,8 +1,9 @@
-import React from 'react';
-import HeaderMain from './components/HeaderMain';
-import IconSearch from './components/IconSearch';
-import LogoMain from './components/LogoMain';
-import ServiceFilter from './components/ServiceFilter';
+import React from 'react'
+import HeaderMain from './components/HeaderMain'
+import IconSearch from './components/IconSearch'
+import LogoMain from './components/LogoMain'
+import ServiceFilter from './components/ServiceFilter'
+import ButtonAdd from './components/ButtonAdd'
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       </HeaderMain>
 
       <ServiceFilter />
+
+      <ButtonAdd title="Insira o seu negócio" />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
